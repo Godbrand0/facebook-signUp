@@ -17,6 +17,7 @@ body {
 .logo {
   text-align: left;
   color: #1877f2;
+  width: 40%;
 }
 .logo h1 {
   font-size: 48px;
@@ -58,4 +59,48 @@ body {
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
+}
+.log:hover {
+  background-color: #165cbb;
+}
+.forgot-password {
+  display: inline-block;
+  margin: 10px 0;
+  color: #1877f2;
+  text-decoration: none;
+  font-size: 14px;
+}
+.forgot-password:hover {
+  text-decoration: underline;
+}
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+.Create-account {
+  width: 100%;
+  padding: 10px;
+  background-color: #42b721;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.Create-account:hover {
+  background-color: #36a420;
+}
+.Create {
+  font-size: 14px;
+  color: #666;
+  margin-top: 20px;
+}
+.Create a {
+  color: #1877f2;
+  text-decoration: none;
+}
+.Create a:hover {
+  text-decoration: underline;
 }
