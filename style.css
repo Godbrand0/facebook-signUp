@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  max-width: 1000px;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  text-align: left;
+  color: #1877f2;
+}
+.logo h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: o;
+}
+.logo p {
+  font-size: 20px;
+  color: #333;
+}
+.login-page {
+  width: 400px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.login-page form {
+  display: block;
+}
+.login-page input[type="text"],
+.login-page input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.log {
+  width: 100%;
+  padding: 10px;
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
